@@ -18,3 +18,12 @@ It doesn’t return a new array.
 <h3>filter()</h3>
 Use filter when want to keep only some items from an array based on a condition.
 It returns a new array with only the items that pass the test.
+<h1>3) What are arrow functions in ES6?</h1>
+<h3>Arrow functions</h3>
+Arrow functions are a new, shorter way to write functions in JavaScript (introduced in ES6). They are also called "fat arrow" functions because they use the => syntax. Arrow functions make code cleaner and automatically bind <code>this</code> to the surrounding context.
+<h1>4) How does destructuring assignment work in ES6?</h1>
+<h3>Destructuring assignment</h3>
+Destructuring assignment is a convenient way in ES6 to extract values from arrays or properties from objects and assign them to variables in a single line. It makes the code cleaner and easier to read.
+<h1>5) Explain template literals in ES6. How are they different from string concatenation?</h1>
+<h3>Template literals</h3>
+Template literals are a new way to work with strings in ES6. They use backticks `` instead of quotes and allow embedding variables or expressions directly inside the string using ${}. This makes string creation much cleaner compared to traditional string concatenation.
