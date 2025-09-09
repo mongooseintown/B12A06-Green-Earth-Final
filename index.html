@@ -199,14 +199,23 @@
     </section>
     <dialog id="plantModal" class="modal modal-bottom sm:modal-middle">
       <div class="modal-box">
-        <h3 id="modalTitle" class="text-lg font-bold">Plant Name</h3>
-        <img id="modalImage" class="w-full h-40 object-cover rounded my-3" src="" alt="Plant Image">
-        <p id="modalDescription" class="py-2 text-sm text-gray-700">Plant description here</p>
+        <img id="modalImage" class="w-full h-52 object-cover rounded mb-4" src="" alt="Plant Image">
+        <h3 id="modalTitle" class="text-xl font-bold mb-2"></h3>
+        <p id="modalDescription" class="text-sm text-gray-700 mb-3"></p>
+        <div class="flex justify-between items-center mb-4">
+          <span id="modalCategory"
+            class="font-medium text-sm rounded-full bg-[#DCFCE7] py-1 px-3 text-[#15803D]"></span>
+          <span id="modalPrice" class="font-semibold text-lg text-[#1F2937]"></span>
+        </div>
+        <button id="modalAddToCart"
+          class="w-full py-3 text-center bg-[#15803D] rounded-full font-medium text-[16px] text-white cursor-pointer">
+          Add to Cart
+        </button>
         <div class="modal-action">
           <button class="btn" onclick="plantModal.close()">Close</button>
         </div>
       </div>
-    </dialog> 
+    </dialog>
   </main>
   <footer class="bg-[#14532D] py-[24px]">
     <h1 class="text-[16px] text-[#FFFFFF] text-center">

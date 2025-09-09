@@ -97,6 +97,10 @@ const displayAllPlants = (plantsArray) => {
       document.getElementById("modalImage").src = plant.image;
       document.getElementById("modalDescription").textContent =
         plant.description;
+      document.getElementById("modalCategory").textContent = plant.category;
+      document.getElementById("modalPrice").textContent = `৳${plant.price}`;
+      const modalAddToCart = document.getElementById("modalAddToCart");
+      modalAddToCart.onclick = () => addToCart(plant);
       modal.showModal();
     });
   });
