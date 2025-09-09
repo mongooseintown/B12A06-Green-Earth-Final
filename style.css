@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #f0fdf4;
+}
+.active-element {
+  background-color: #15803D !important;
+  color: white !important;
+}
